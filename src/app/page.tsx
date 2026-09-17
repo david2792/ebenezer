@@ -23,7 +23,7 @@ export default async function HomePage() {
         {/* Hero Top Presentation */}
         <section id="inicio" className="relative pt-32 pb-12 sm:pt-40 sm:pb-16 overflow-hidden">
           {/* Ambient Lighting Gradients */}
-          <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] sm:w-[900px] h-[350px] bg-[#00FF66]/10 rounded-full blur-[140px] pointer-events-none" />
+          <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] sm:w-[900px] h-[350px] bg-[#00FF66]/10 rounded-full blur-2xl sm:blur-[140px] pointer-events-none" />
           <div className="absolute top-10 left-10 w-72 h-72 bg-[#10B981]/5 rounded-full blur-3xl pointer-events-none" />
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">

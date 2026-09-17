@@ -3,10 +3,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { 
-  Plus, Trash2, Edit3, Upload, Check, AlertCircle, Dumbbell, 
-  ArrowLeft, LogOut, ShieldCheck, Search, Sparkles, X, Eye, 
-  RefreshCw, CheckCircle2 
+import { upload } from '@vercel/blob/client';
+import {
+  Plus, Trash2, Edit3, Upload, Check, AlertCircle, Dumbbell,
+  ArrowLeft, LogOut, ShieldCheck, Search, Sparkles, X, Eye,
+  RefreshCw, CheckCircle2
 } from 'lucide-react';
 import { Machine } from '@/lib/types';
 
@@ -155,23 +156,16 @@ export default function AdminPage() {
     setUploading(true);
     setUploadMessage('Subiendo imagen...');
 
-    const formData = new FormData();
-    formData.append('file', file);
-
     try {
-      const res = await fetch('/api/upload', {
-        method: 'POST',
-        body: formData
+      const blob = await upload(`uploads/${Date.now()}_${file.name}`, file, {
+        access: 'public',
+        handleUploadUrl: '/api/upload'
       });
-      const data = await res.json();
-      if (data.success) {
-        setFormImageUrl(data.url);
-        setUploadMessage('¡Imagen subida correctamente!');
-      } else {
-        setUploadMessage('Error al subir imagen: ' + data.error);
-      }
+      setFormImageUrl(blob.url);
+      setUploadMessage('¡Imagen subida correctamente!');
     } catch (err) {
-      setUploadMessage('Error al conectar con el servidor');
+      const message = err instanceof Error ? err.message : 'Error al conectar con el servidor';
+      setUploadMessage('Error al subir imagen: ' + message);
     } finally {
       setUploading(false);
     }
