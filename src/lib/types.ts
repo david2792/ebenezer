@@ -1,11 +1,17 @@
-export type MuscleGroup = 
+export type MuscleGroup =
   | 'Todos'
   | 'Pecho'
   | 'Espalda'
   | 'Piernas'
   | 'Hombros'
   | 'Brazos'
-  | 'Funcional';
+  | 'Glúteos'
+  | 'Pantorrillas'
+  | 'Funcional'
+  | 'Accesorios'
+  | 'Mancuernas'
+  | 'Barras'
+  | 'Discos';
 
 export interface Machine {
   id: string;
@@ -31,5 +37,11 @@ export const MUSCLE_GROUPS: { id: string; name: string; icon: string; descriptio
   { id: 'Piernas', name: 'Piernas / Tren Inferior', icon: 'Zap', description: 'Prensas de 45°, hack squats, camillas femorales' },
   { id: 'Hombros', name: 'Hombros / Deltoides', icon: 'Crosshair', description: 'Press militar, elevaciones y abducciones' },
   { id: 'Brazos', name: 'Brazos (Bíceps/Tríceps)', icon: 'Activity', description: 'Bancos predicador, poleas y brazos mecánicos' },
-  { id: 'Funcional', name: 'Funcional & Racks', icon: 'Box', description: 'Jaulas de potencia, bancos libres y accesorios' }
+  { id: 'Glúteos', name: 'Glúteos', icon: 'Flame', description: 'Hip thrust, patada de glúteo y abducción de cadera' },
+  { id: 'Pantorrillas', name: 'Pantorrillas', icon: 'Footprints', description: 'Elevación de talones sentado y de pie' },
+  { id: 'Funcional', name: 'Funcional & Racks', icon: 'Box', description: 'Jaulas de potencia, bancos libres y accesorios' },
+  { id: 'Accesorios', name: 'Accesorios', icon: 'Package', description: 'Bancos, sogas, agarres y complementos de entrenamiento' },
+  { id: 'Mancuernas', name: 'Mancuernas', icon: 'Dumbbell', description: 'Sets de mancuernas fijas y ajustables' },
+  { id: 'Barras', name: 'Barras', icon: 'Layers', description: 'Barras olímpicas, rectas y curvas' },
+  { id: 'Discos', name: 'Discos', icon: 'Disc', description: 'Discos olímpicos de fundición y bumper' }
 ];

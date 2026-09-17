@@ -17,7 +17,13 @@ const MUSCLE_OPTIONS = [
   'Piernas',
   'Hombros',
   'Brazos',
-  'Funcional'
+  'Glúteos',
+  'Pantorrillas',
+  'Funcional',
+  'Accesorios',
+  'Mancuernas',
+  'Barras',
+  'Discos'
 ];
 
 export default function AdminPage() {
@@ -601,7 +607,7 @@ export default function AdminPage() {
 
       {/* Modal: Add or Edit Machine */}
       {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/80 backdrop-blur-md overflow-y-auto animate-in fade-in duration-200">
+        <div className="fixed inset-0 z-50 flex items-start sm:items-center justify-center p-4 sm:p-6 bg-black/80 backdrop-blur-md overflow-y-auto animate-in fade-in duration-200">
           <div className="relative w-full max-w-2xl bg-[#11151F] border border-[#232B3B] rounded-3xl p-6 sm:p-8 shadow-2xl my-8">
             <button
               onClick={() => setIsModalOpen(false)}

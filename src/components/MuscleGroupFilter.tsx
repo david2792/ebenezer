@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { MUSCLE_GROUPS } from '@/lib/types';
-import { Dumbbell, Shield, Flame, Zap, Crosshair, Activity, Box } from 'lucide-react';
+import { Dumbbell, Shield, Flame, Zap, Crosshair, Activity, Box, Footprints, Package, Layers, Disc } from 'lucide-react';
 
 interface MuscleGroupFilterProps {
   selectedGroup: string;
@@ -27,8 +27,20 @@ export default function MuscleGroupFilter({
         return <Crosshair className="w-4 h-4" />;
       case 'Brazos':
         return <Activity className="w-4 h-4" />;
+      case 'Glúteos':
+        return <Flame className="w-4 h-4" />;
+      case 'Pantorrillas':
+        return <Footprints className="w-4 h-4" />;
       case 'Funcional':
         return <Box className="w-4 h-4" />;
+      case 'Accesorios':
+        return <Package className="w-4 h-4" />;
+      case 'Mancuernas':
+        return <Dumbbell className="w-4 h-4" />;
+      case 'Barras':
+        return <Layers className="w-4 h-4" />;
+      case 'Discos':
+        return <Disc className="w-4 h-4" />;
       default:
         return <Dumbbell className="w-4 h-4" />;
     }
