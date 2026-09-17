@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ebz-01",
+    "name": "Prensa de Piernas 45° Pro Heavy Duty",
+    "muscleGroup": "Piernas",
+    "description": "Estructura en acero estructural calibre 11 con rodamientos lineales de alta precisión. Plataforma antideslizante de gran amplitud para múltiples ángulos de empuje y respaldo ergonómico ajustable.",
+    "specs": [
+      "Capacidad de carga: hasta 650 kg",
+      "Pintura electrostática microtexturizada de alta resistencia",
+      "Rodamientos lineales blindados libres de mantenimiento",
+      "Ángulo biomecánico de 45° con bloqueo de seguridad multinivel"
+    ],
+    "imageUrl": "/images/gym/gym-1.jpeg",
+    "featured": true,
+    "createdAt": "2026-09-01T10:00:00.000Z"
+  },
+  {
+    "id": "ebz-02",
+    "name": "Press de Pecho Inclinado Convergente",
+    "muscleGroup": "Pecho",
+    "description": "Máquina de palanca con trayectoria convergente independiente que reproduce el movimiento natural del press declinado e inclinado. Máxima activación en el haz clavicular del pectoral.",
+    "specs": [
+      "Brazos de movimiento independiente para balance bilateral",
+      "Regulación de asiento asistida por pistón neumático",
+      "Agarres multi-posición con recubrimiento de poliuretano industrial",
+      "Portadiscos olímpicos integrados en la estructura"
+    ],
+    "imageUrl": "/images/gym/gym-2.jpeg",
+    "featured": true,
+    "createdAt": "2026-09-02T10:00:00.000Z"
+  },
+  {
+    "id": "ebz-03",
+    "name": "Hack Squat / Sentadilla Hack Invertida",
+    "muscleGroup": "Piernas",
+    "description": "Permite realizar sentadilla hack tradicional y sentadilla invertida con soporte acolchado para hombros de alta densidad. Minimiza la tensión lumbar aislando los cuádriceps y glúteos.",
+    "specs": [
+      "Doble parada de seguridad de liberación rápida",
+      "Guías de acero macizo cromado de 30mm",
+      "Base de soporte con ajuste de inclinación para ángulo articular ideal",
+      "Tapicería ignífuga con costura doble reforzada"
+    ],
+    "imageUrl": "/images/gym/gym-3.jpeg",
+    "featured": true,
+    "createdAt": "2026-09-03T10:00:00.000Z"
+  },
+  {
+    "id": "ebz-04",
+    "name": "Remo con Apoyo al Pecho T-Bar",
+    "muscleGroup": "Espalda",
+    "description": "Diseñado para desarrollo de densidad dorsal y trapecio medio sin sobrecargar la zona baja de la columna. Doble empuñadura para agarres neutros, pronos y anchos.",
+    "specs": [
+      "Almohadilla pectoral con corte anatómico para respiración fluida",
+      "Brazo articulado sobre chumaceras selladas",
+      "Plataforma de pie dentada cortada por láser para máxima estabilidad",
+      "Pintura electrostática al horno anticorrosiva"
+    ],
+    "imageUrl": "/images/gym/gym-4.jpeg",
+    "featured": true,
+    "createdAt": "2026-09-04T10:00:00.000Z"
+  },
+  {
+    "id": "ebz-05",
+    "name": "Press Militar de Hombros Sentado",
+    "muscleGroup": "Hombros",
+    "description": "Alineación biomecánica óptima para el deltoides anterior y lateral. Trayectoria convergente que respeta el ritmo escápulo-humeral y previene pinzamientos.",
+    "specs": [
+      "Manerales de doble posición (paralelo y semi-prono)",
+      "Asiento regulable en 6 alturas con pasador magnético",
+      "Estructura ovalada reforzada de 100x50mm",
+      "Topes amortiguadores de goma vulcanizada"
+    ],
+    "imageUrl": "/images/gym/gym-5.jpeg",
+    "featured": true,
+    "createdAt": "2026-09-05T10:00:00.000Z"
+  },
+  {
+    "id": "ebz-06",
+    "name": "Extensión de Cuádriceps a Placas",
+    "muscleGroup": "Piernas",
+    "description": "Aislamiento perfecto de cuádriceps con rodillo autoajustable al largo de la tibia. Torre de pesas con selector rápido para drop-sets y entrenamientos intensivos.",
+    "specs": [
+      "Torre de pesas de 100 kg en placas de acero rectificado",
+      "Respaldo con regulación horizontal rápida",
+      "Cam biomecánico de resistencia variable progresiva",
+      "Cables de acero trenzado aeronáutico de 5mm con recubrimiento de nylon"
+    ],
+    "imageUrl": "/images/gym/gym-6.jpeg",
+    "featured": false,
+    "createdAt": "2026-09-06T10:00:00.000Z"
+  },
+  {
+    "id": "ebz-07",
+    "name": "Dorsalera Divergente / Lat Pulldown Pro",
+    "muscleGroup": "Espalda",
+    "description": "Simula la tracción vertical de dominadas con libertad de movimiento uni/bilateral. Rodillos estabilizadores de muslos acolchados y regulables.",
+    "specs": [
+      "Brazos independientes con articulación suave",
+      "Agarres rotativos 360° para mayor variedad de reclutamiento muscular",
+      "Estructura robusta antivuelco con anclaje al suelo opcional",
+      "Capacidad para discos olímpicos de 50mm"
+    ],
+    "imageUrl": "/images/gym/gym-7.jpeg",
+    "featured": false,
+    "createdAt": "2026-09-07T10:00:00.000Z"
+  },
+  {
+    "id": "ebz-08",
+    "name": "Banco Scott / Predicador Bíceps Articulado",
+    "muscleGroup": "Brazos",
+    "description": "Fijación anatómica del codo para eliminar el balanceo y aislar el bíceps braquial y braquiorradial en su recorrido completo de contracción.",
+    "specs": [
+      "Ángulo de apoyo a 45° diseñado para tensión continua",
+      "Tapizado vinílico antibacteriano y resistente al sudor",
+      "Brazo de palanca con contrapeso equilibrado",
+      "Carga de discos olímpicos"
+    ],
+    "imageUrl": "/images/gym/gym-8.jpeg",
+    "featured": false,
+    "createdAt": "2026-09-08T10:00:00.000Z"
+  },
+  {
+    "id": "ebz-09",
+    "name": "Press de Pecho Plano Biomecánico",
+    "muscleGroup": "Pecho",
+    "description": "Sustituye la barra olímpica con mayor seguridad y eficiencia para hipertrofia y fuerza en pectoral mayor. Inicio asistido por pedal de arranque.",
+    "specs": [
+      "Pedal de arranque suave para evitar estrés en el rotador del hombro",
+      "Doble empuñadura ergonómica",
+      "Bases con tapones antideslizantes de caucho de alta densidad",
+      "Acabado en negro satinado con acentos industriales"
+    ],
+    "imageUrl": "/images/gym/gym-9.jpeg",
+    "featured": false,
+    "createdAt": "2026-09-09T10:00:00.000Z"
+  },
+  {
+    "id": "ebz-10",
+    "name": "Camilla Femoral Tumbado (Leg Curl)",
+    "muscleGroup": "Piernas",
+    "description": "Aislamiento directo de isquiotibiales con ángulo en la camilla para liberar presión de la columna lumbar. Rodillo de apoyo al tobillo ajustable.",
+    "specs": [
+      "Camilla anatómica con inclinación en V",
+      "Torre de placas de peso seleccionable",
+      "Manijas laterales de agarre para sujeción firme durante el esfuerzo",
+      "Guías de movimiento rectificadas en cromo duro"
+    ],
+    "imageUrl": "/images/gym/gym-10.jpeg",
+    "featured": false,
+    "createdAt": "2026-09-10T08:00:00.000Z"
+  },
+  {
+    "id": "ebz-11",
+    "name": "Elevación de Gemelos / Pantorrillas Sentado",
+    "muscleGroup": "Piernas",
+    "description": "Enfoque biomecánico en el músculo sóleo. Almohadillas para muslos con selector de altura y palanca de liberación ergonómica al alcance de la mano.",
+    "specs": [
+      "Palanca de traba y destrabe rápido a una mano",
+      "Apoyo de pies en chapa antideslizante con borde redondeado",
+      "Perno selector de alta seguridad",
+      "Soporta discos de 50mm y 30mm"
+    ],
+    "imageUrl": "/images/gym/gym-11.jpeg",
+    "featured": false,
+    "createdAt": "2026-09-10T09:00:00.000Z"
+  },
+  {
+    "id": "ebz-12",
+    "name": "Jaula de Fuerza / Power Rack Industrial",
+    "muscleGroup": "Funcional",
+    "description": "Estación integral multi-ejercicio de alta gama: sentadillas, press de banca, dominadas con agarres múltiples y fondos. Ganchos J-Hooks y barras de seguridad de acero macizo.",
+    "specs": [
+      "Postes de 75x75mm en acero de 3.2mm de espesor con numeración grabada",
+      "Barra de dominadas multiagarre moleteada",
+      "Soportes de seguridad de longitud completa",
+      "Pines de almacenamiento para discos olímpicos en la parte trasera"
+    ],
+    "imageUrl": "/images/gym/gym-12.jpeg",
+    "featured": true,
+    "createdAt": "2026-09-10T09:30:00.000Z"
+  }
+]
