@@ -2,8 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { MessageCircle, MapPin, Phone, Mail, Clock, ShieldCheck } from 'lucide-react';
+import { MessageCircle, MapPin, Phone, Mail, Clock } from 'lucide-react';
 import { getWhatsAppUrl, CONTACT_INFO } from '@/lib/constants';
 
 export default function Footer() {
@@ -54,12 +53,6 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#calidad" className="hover:text-[#00FF66] transition-colors">Calidad y Fabricación</a>
-              </li>
-              <li>
-                <Link href="/admin" className="text-gray-400 hover:text-[#00FF66] transition-colors flex items-center gap-1.5">
-                  <ShieldCheck className="w-3.5 h-3.5 text-[#00FF66]" />
-                  <span>Panel de Control (Admin)</span>
-                </Link>
               </li>
             </ul>
           </div>

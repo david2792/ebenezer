@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Menu, X, MessageCircle, ShieldCheck, Dumbbell, MapPin, ShoppingBag } from 'lucide-react';
+import { Menu, X, MessageCircle, Dumbbell, MapPin, ShoppingBag } from 'lucide-react';
 import { getWhatsAppUrl, CONTACT_INFO } from '@/lib/constants';
 import { useCart } from '@/context/CartContext';
 
@@ -103,15 +103,6 @@ export default function Navbar() {
             )}
           </button>
 
-          <Link
-            href="/admin"
-            className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-semibold text-gray-400 hover:text-white bg-[#141821] hover:bg-[#1C2230] border border-gray-800 transition-all"
-            title="Panel de Administración"
-          >
-            <ShieldCheck className="w-3.5 h-3.5 text-[#00FF66]" />
-            <span>Admin</span>
-          </Link>
-
           <a
             href={whatsappUrl}
             target="_blank"
@@ -139,13 +130,6 @@ export default function Navbar() {
               </span>
             )}
           </button>
-
-          <Link
-            href="/admin"
-            className="p-2 rounded-lg text-xs font-semibold text-gray-400 bg-[#141821] border border-gray-800"
-          >
-            <ShieldCheck className="w-4 h-4 text-[#00FF66]" />
-          </Link>
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -216,14 +200,6 @@ export default function Navbar() {
               <MessageCircle className="w-4 h-4 fill-current" />
               <span>Cotizar por WhatsApp ({CONTACT_INFO.phoneDisplay})</span>
             </a>
-            <Link
-              href="/admin"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg text-xs font-semibold text-gray-300 bg-[#141821] border border-gray-800"
-            >
-              <ShieldCheck className="w-4 h-4 text-[#00FF66]" />
-              <span>Acceso Panel de Administración</span>
-            </Link>
           </div>
         </div>
       )}
