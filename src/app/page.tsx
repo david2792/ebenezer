@@ -8,8 +8,10 @@ import { getMachines } from '@/lib/machines';
 import { getWhatsAppUrl, CONTACT_INFO } from '@/lib/constants';
 import { Dumbbell, Shield, Zap, Award, ArrowRight, MessageCircle, MapPin } from 'lucide-react';
 
-// Revalidate data periodically so changes from admin reflect quickly
-export const revalidate = 0;
+// El catálogo se sirve desde caché; se invalida al instante cuando se guarda
+// un cambio en el admin (ver revalidateTag en src/lib/machines.ts), así que
+// no hace falta volver a consultar Blob en cada visita.
+export const revalidate = 3600;
 
 export default async function HomePage() {
   const machines = await getMachines();
